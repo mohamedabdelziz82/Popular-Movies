@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_most_popular"
+        app:showAsAction="never"
+        android:title="@string/action_most_popular" />
+    <item android:id="@+id/action_highest_rated"
+        android:title="@string/action_highest_rated"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_favorite"
+    android:title="@string/action_favorite"
+    app:showAsAction="never" />
+</menu>
